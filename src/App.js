@@ -1,16 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Chai from './Chai_';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vallabh!</p>
-       
-      </header>
-    </div>
+    <>
+    <Chai />
+    <h1>Chai aur React</h1>
+    </>
   );
 }
-
 export default App;
